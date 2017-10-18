@@ -11,7 +11,7 @@
 ## 10. Make sure this file is in the same directory as the tweepy_example file (or any other file) where you import twitter_info!
 ## 11. (Don't share this file with anyone or push it to a public GitHub repository -- it contains access to your Twitter account!)
 
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "BdIInerijPanzp7qci9r9cYQC"
+consumer_secret = "Kr88ifoGo52xFWsmCq0R1M1g660Ay8BQONd4lmZyM5dS6qxUGe"
+access_token = "827295555026034688-AZYa63BGrJ8GQOTJ73kMX526dQucQdT"
+access_token_secret = "TSiWDc1YNKPj2Vzopy7eSg7SIWlUgEI2HQKWyaed1Yh0N"

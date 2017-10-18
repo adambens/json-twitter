@@ -1,7 +1,7 @@
 import requests
 import json
 import tweepy 			# need to pip install tweepy
-import twitter_info		# you need to initialize this file with your Tweet app info
+import twitter_info_example as twitter_info		# you need to initialize this file with your Tweet app info
 
 # Fill these in in the twitter_info.py file
 consumer_key = twitter_info.consumer_key
@@ -16,12 +16,12 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 public_tweets = api.home_timeline() # One possible method! Check out: http://tweepy.readthedocs.io/en/v3.5.0/api.html#timeline-methods 
 print(type(public_tweets)," is the type of publictweets")
-
+"""
 for tweet in public_tweets:
     print("\n*** type of the tweet object that is included ***\n")
     print(type(tweet),"type of one tweet") 
-    print(tweet) ## Huh. That's not easy to read.
-
+    print(tweet)
+"""
 # Let's pull apart one tweet to take a look at it.
 single_tweet = public_tweets[0]
 
